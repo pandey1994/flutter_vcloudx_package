@@ -15,7 +15,7 @@ class SwapNumber {
 
     //show toast after swap number
     Fluttertoast.showToast(
-        msg: " $a and"+"$b",
+        msg: " $a and "+"$b",
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIosWeb: 1,
