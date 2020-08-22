@@ -3,9 +3,9 @@ library flutter_vcloudx_package;
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-/// A Calculator.
+/// A Swap Number.
 class SwapNumber {
-  /// Returns [value] plus 1.
+  ///define variable.
   var num1,num2,temp;
   void swapNumber(int a, int b) {
 
@@ -13,6 +13,7 @@ class SwapNumber {
     a=b;
     b=temp;
 
+    //show toast after swap number
     Fluttertoast.showToast(
         msg: " $a and"+"$b",
         toastLength: Toast.LENGTH_SHORT,
